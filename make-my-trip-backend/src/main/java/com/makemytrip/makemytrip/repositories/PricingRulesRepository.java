@@ -1,0 +1,1 @@
+package com.makemytrip.makemytrip.repositories;import com.makemytrip.makemytrip.models.PricingRules;import org.springframework.data.mongodb.repository.MongoRepository;public interface PricingRulesRepository extends MongoRepository<PricingRules,String>{}

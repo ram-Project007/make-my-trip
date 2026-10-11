@@ -1,0 +1,25 @@
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/.next-verify/
+**/out/
+**/.vercel/
+**/coverage/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Java / Maven
+**/target/
+**/.m2/
+
+# Local secrets and runtime output
+**/.env
+**/.env.*
+!**/.env.example
+**/*.log
+**/admin-signup-tokens.txt
+
+# IDE and OS files
+**/.idea/
+**/.vscode/
+**/.DS_Store
